@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align-Self</title>
+    <style>
+        .flex-container{
+            display: flex;
+            border: 1px solid black;
+            max-width: 350px;
+            margin-bottom: 10px;
+            /*align-items: center;*/
+               
+        }
+ 
+        .item{
+            background-color: blueviolet;
+            color: white;
+            font-size: 24px;
+            text-align: center; 
+            margin: 5px;
+        }
+
+        .align-container{
+            align-items: flex-end;
+
+        }
+
+        .center{
+            align-self: center;
+        }
+
+        .start{
+            align-self: flex-start;
+        }
+
+        .end{
+            align-self: flex-end;
+        }
+
+        .baseline{
+            align-self: baseline;
+        }
+
+        .stretch{
+            align-self: stretch;
+        }
+
+        .auto{
+            align-self: auto;
+        }
+
+        .direction{
+            flex-direction: column;
+        }
+
+    
+     </style>
+</head>
+<body>
+    <h1>ROM</h1>
+    <p>Flex align-self: align-container</p>
+    <selection class="flex-container align-container">
+        <div class="item auto">AAA</div>
+        <div class="item auto">123</div>
+        <div class="item auto">Homem aranha lord avatar help this is</div>
+        <div class="item auto">Item 4</div>
+        <div class="item auto">5m</div>
+    </selection>
+
+    
+    <selection class="flex-container">
+        <div class="item center">AAA</div>
+        <div class="item start">123</div>
+        <div class="item end">Homem aranha lord avatar help this is</div>
+        <div class="item end">Item 4</div>
+        <div class="item stretch">5m</div>
+    </selection>
+
+
+
+    <H1>Column</H1>
+    <p>Flex align-self: align-container</p>
+    <selection class="flex-container align-container direction">
+        <div class="item auto">AAA</div>
+        <div class="item auto">123</div>
+        <div class="item auto">Homem aranha lord avatar help this is</div>
+        <div class="item auto">Item 4</div>
+        <div class="item auto">5m</div>
+    </selection>
+
+    
+    <selection class="flex-container direction">
+        <div class="item center">AAA</div>
+        <div class="item start">123</div>
+        <div class="item end">Homem aranha lord avatar help this is</div>
+        <div class="item end">Item 4</div>
+        <div class="item stretch">5m</div>
+    </selection>
+
+    
+
+  
+
+    
+
+    
+    
+    
+</body>
+</html>

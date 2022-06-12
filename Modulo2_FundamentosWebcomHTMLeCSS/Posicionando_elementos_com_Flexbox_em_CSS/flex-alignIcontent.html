@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flex-AlignContent</title>
+
+    <style>
+        .container{
+            height: 350px;
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+ 
+        .item{
+            background-color: blueviolet;
+            padding: 0 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+            border: 2px solid black;
+            
+        }
+
+        .strecth{
+            align-content: stretch;
+        }
+ 
+        
+        .center{
+            align-content: center;
+        }
+ 
+        
+        .flex-start{
+            align-content: flex-start;
+        }
+
+        .flex-end{
+            align-content: flex-end;
+        }
+
+        .space-around{
+            align-content: space-around;
+        }
+
+        .space-between{
+            align-content: space-between;
+        }
+ 
+     </style>
+</head>
+<body>
+    <p>stretch</p>
+    <div class="container strecth">
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful source code editor</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful source code editor</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+    </div>
+
+    <p>Center</p>
+    <div class="container center">
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful source code editor</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful source code editor</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+    </div>
+
+    <p>Flex-Start</p>
+    <div class="container flex-start">
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful source code editor</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful source code editor</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+    </div>
+
+    <p>Flex-End</p>
+    <div class="container flex-end">
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful source code editor</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful source code editor</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+    </div>
+
+    <p>Space-Around</p>
+    <div class="container space-around">
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful source code editor</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful source code editor</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+    </div>
+
+    <p>Space-Between</p>
+    <div class="container space-between">
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful source code editor</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful source code editor</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+        <div class="item">Visual Studio Code is a lightweight but powerful</div>
+    </div>
+
+    
+       
+</body>
+</html>

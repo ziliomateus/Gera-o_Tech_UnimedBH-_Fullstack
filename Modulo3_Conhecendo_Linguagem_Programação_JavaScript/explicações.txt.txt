@@ -1,0 +1,20 @@
+/*index é a primeira pagina onde o se compila o codigo
+  Arquitetura é onde está desenhada todos os arquivos
+  Assets é tudo que compoe os componentes da pagina HTML
+  importar css é pelo link rel: rel é o relacionamento entre o arquivo que vou chamar       e o qual estou chamando ele
+                            href:  refencia do local do arquivo
+DOM: São os elementos que ficam na pagina, mostra tudo que tem disponnivel no documento
+
+document.getElementsByTagName('h1')
+HTMLCollection [h1]0: h1length: 1[[Prototype]]: HTMLCollection
+var heading1 = document.getElementsByTagName('h1')[0]
+undefined
+heading1
+<h1>​Olá, mundo!​</h1>​
+heading1.style.color = 'red'
+'red'
+
+*/
+
+
+https://github.com/stebsnusch/basecamp-javascript
